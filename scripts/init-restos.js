@@ -63,6 +63,7 @@ async function overpass() {
         // Recherche du nom centrée sur la position exacte : évite les homonymes ailleurs dans Paris.
         url: `https://www.google.com/maps/search/${encodeURIComponent(t.name)}/@${pos.lat},${pos.lng},19z`,
         menu: t['website:menu'] || t['contact:website'] || t.website || '',
+        tel: (t.phone || t['contact:phone'] || '').split(';')[0].trim(),
         ...pos,
       };
     })

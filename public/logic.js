@@ -90,7 +90,7 @@
           if (!e.nom || !e.url) break;
           restos.push({
             id: String(c.id), nom: e.nom, url: e.url, menu: e.menu || '',
-            adresse: e.adresse || '', cuisine: e.cuisine || '',
+            tel: e.tel || '', adresse: e.adresse || '', cuisine: e.cuisine || '',
             lat: e.lat ?? null, lng: e.lng ?? null, by: c.user,
           });
           // Celui qui propose vient, et vote pour sa proposition.

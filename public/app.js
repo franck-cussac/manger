@@ -171,6 +171,7 @@ function restoCard(r, extra = '') {
         <p class="links">
           <a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">📍 Ouvrir dans Google Maps</a>
           ${menu}
+          ${r.tel ? `<a href="tel:${esc(r.tel.replace(/[^\d+]/g, ''))}">📞 ${esc(r.tel)}</a>` : ''}
         </p>
         ${r.by === me?.login ? `<p><button class="link" data-action="retire" data-id="${esc(r.id)}" ${busy ? 'disabled' : ''}>🗑️ Retirer ma proposition</button></p>` : ''}
         ${extra}
@@ -238,6 +239,9 @@ function viewForm(isCounter) {
         <label>Lien du menu <span class="muted">(facultatif)</span>
           <input name="menu" type="url" placeholder="https://…">
         </label>
+        <label>Téléphone pour réserver <span class="muted">(facultatif)</span>
+          <input name="tel" type="tel" placeholder="01 23 45 67 89">
+        </label>
         <div class="row">
           <button class="primary" ${busy ? 'disabled' : ''}>Proposer</button>
           ${state.restos.length ? '<button type="button" data-action="cancel">Annuler</button>' : ''}
@@ -254,9 +258,18 @@ function viewEmpty() {
     </section>`;
 }
 
+function headcount() {
+  const coming = state.gens.filter((p) => p.statut === 'viens');
+  const n = coming.length;
+  return `
+    <section class="headcount">
+      <span class="count">${n}</span>
+      <span><b>${n > 1 ? 'personnes viennent' : 'personne vient'} déjeuner</b><br>${people(coming, 'Sois le premier !')}</span>
+    </section>`;
+}
+
 function viewSingle(mine) {
   const r = state.restos[0];
-  const coming = state.gens.filter((p) => p.statut === 'viens');
   const notComing = state.gens.filter((p) => p.statut === 'viens_pas');
   const buttons = `
     <div class="row actions">
@@ -264,7 +277,6 @@ function viewSingle(mine) {
       <button class="${mine?.statut === 'viens_pas' ? 'danger' : ''}" data-action="viens_pas" ${busy ? 'disabled' : ''}>❌ Je viens pas</button>
       <button data-action="form" ${busy ? 'disabled' : ''}>🔁 Contre-proposition</button>
     </div>
-    <p><b>Viennent (${coming.length})</b> : ${people(coming)}</p>
     <p><b>Ne viennent pas</b> : ${people(notComing)}</p>`;
   return restoCard(r, buttons);
 }
@@ -321,8 +333,7 @@ function render() {
   else {
     const mine = state.gens.find((p) => p.login === me.login);
     if (showForm || !state.restos.length) body = showForm ? viewForm(state.restos.length > 0) : viewEmpty();
-    else if (state.restos.length === 1) body = viewSingle(mine);
-    else body = viewVote(mine);
+    else body = headcount() + (state.restos.length === 1 ? viewSingle(mine) : viewVote(mine));
   }
 
   // Ne pas écraser le formulaire pendant la saisie lors du rafraîchissement automatique.
@@ -416,7 +427,7 @@ $app.addEventListener('click', (e) => {
 });
 
 function fillFromCatalogue(f, r) {
-  for (const key of ['url', 'nom', 'menu', 'adresse', 'cuisine']) f[key].value = r[key];
+  for (const key of ['url', 'nom', 'menu', 'tel', 'adresse', 'cuisine']) f[key].value = r[key];
   f.nom.dataset.touched = '1';
 }
 
@@ -461,7 +472,7 @@ $app.addEventListener('submit', async (e) => {
     if (lat == null && known) ({ lat, lng } = known);
     const verb = state.restos.length ? '🔁 Contre-proposition' : '🍽️ Proposition';
     document.activeElement.blur();
-    const evt = { type: 'propose', nom, url, menu: f.menu.value.trim(), adresse: f.adresse.value, cuisine: f.cuisine.value, lat, lng };
+    const evt = { type: 'propose', nom, url, menu: f.menu.value.trim(), tel: f.tel.value.trim(), adresse: f.adresse.value, cuisine: f.cuisine.value, lat, lng };
     post(evt, `${verb} : **${md(nom)}**\n${url}`);
   }
 });

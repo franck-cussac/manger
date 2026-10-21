@@ -110,3 +110,14 @@ select {
   color: var(--text);
   max-width: 100%;
 }
+
+.headcount {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--notice);
+  border-radius: 14px;
+  padding: .9rem 1.25rem;
+  margin-top: 1rem;
+}
+.headcount .count { font-size: 2.6rem; font-weight: 800; line-height: 1; color: var(--accent); min-width: 2ch; text-align: center; }

@@ -5,6 +5,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/Amalfi/@48.8461371,2.4012766,19z",
     "menu": "",
+    "tel": "+33 1 43 07 02 32",
     "lat": 48.8461371,
     "lng": 2.4012766
   },
@@ -14,6 +15,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Arkose%20Nation/@48.8513911,2.402257,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8513911,
     "lng": 2.402257
   },
@@ -23,6 +25,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Au%20Bouvines/@48.8505974,2.3966572,19z",
     "menu": "",
+    "tel": "+33143736113",
     "lat": 48.8505974,
     "lng": 2.3966572
   },
@@ -32,6 +35,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Au%20Gourmet%20de%20Picpus/@48.8433713,2.3967454,19z",
     "menu": "",
+    "tel": "+33 1 43 42 97 78",
     "lat": 48.8433713,
     "lng": 2.3967454
   },
@@ -41,6 +45,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Au%20R%C3%A9gal%20Couscous/@48.8475785,2.4004192,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8475785,
     "lng": 2.4004192
   },
@@ -50,6 +55,7 @@
     "cuisine": "kebab",
     "url": "https://www.google.com/maps/search/Aux%20D%C3%A9lices%20de%20Reuilly/@48.8445761,2.3900227,19z",
     "menu": "",
+    "tel": "+33 143464679",
     "lat": 48.8445761,
     "lng": 2.3900227
   },
@@ -59,6 +65,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Beth%20Hamidrach%20Cacherout/@48.8510446,2.3975392,19z",
     "menu": "https://codedelacacherout.com",
+    "tel": "",
     "lat": 48.8510446,
     "lng": 2.3975392
   },
@@ -68,6 +75,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Bloomy/@48.8465956,2.3946888,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8465956,
     "lng": 2.3946888
   },
@@ -77,6 +85,7 @@
     "cuisine": "indien",
     "url": "https://www.google.com/maps/search/Bombay%20Curry/@48.8506953,2.3940645,19z",
     "menu": "",
+    "tel": "+33 1 43 72 55 68",
     "lat": 48.8506953,
     "lng": 2.3940645
   },
@@ -86,6 +95,7 @@
     "cuisine": "wings",
     "url": "https://www.google.com/maps/search/Brasao/@48.8490017,2.390766,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8490017,
     "lng": 2.390766
   },
@@ -95,6 +105,7 @@
     "cuisine": "burger",
     "url": "https://www.google.com/maps/search/Burger%20King/@48.8478128,2.3978063,19z",
     "menu": "https://www.burgerking.fr/restaurants/paris-nation",
+    "tel": "+33 1 44 23 71 19",
     "lat": 48.8478128,
     "lng": 2.3978063
   },
@@ -104,6 +115,7 @@
     "cuisine": "sandwich, kebab, burger",
     "url": "https://www.google.com/maps/search/Burger%20Shop/@48.8455223,2.3888818,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8455223,
     "lng": 2.3888818
   },
@@ -113,6 +125,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Caf%C3%A9%20des%20Arts/@48.8513792,2.397995,19z",
     "menu": "",
+    "tel": "+33 9 81 26 30 59",
     "lat": 48.8513792,
     "lng": 2.397995
   },
@@ -122,6 +135,7 @@
     "cuisine": "français, brunch",
     "url": "https://www.google.com/maps/search/Caf%C3%A9%20Juliette/@48.8514932,2.398692,19z",
     "menu": "https://cafe-juliette.fr/fr/menu",
+    "tel": "+33 9 74 64 09 90",
     "lat": 48.8514932,
     "lng": 2.398692
   },
@@ -131,6 +145,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Caff%C3%A9%20Shop/@48.851927,2.3903077,19z",
     "menu": "https://caffe-shop.fr/",
+    "tel": "+33143486271",
     "lat": 48.851927,
     "lng": 2.3903077
   },
@@ -140,6 +155,7 @@
     "cuisine": "pizza, français",
     "url": "https://www.google.com/maps/search/Capone%20Nation/@48.8477852,2.3980971,19z",
     "menu": "",
+    "tel": "+33 1 43 43 26 19",
     "lat": 48.8477852,
     "lng": 2.3980971
   },
@@ -149,6 +165,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Causier/@48.8503831,2.3889647,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8503831,
     "lng": 2.3889647
   },
@@ -158,6 +175,7 @@
     "cuisine": "français, jewish",
     "url": "https://www.google.com/maps/search/Chez%20Addy%20%26%20Ida/@48.8464569,2.394626,19z",
     "menu": "",
+    "tel": "+33 1 43 43 27 44",
     "lat": 48.8464569,
     "lng": 2.394626
   },
@@ -167,6 +185,7 @@
     "cuisine": "sausage",
     "url": "https://www.google.com/maps/search/Chez%20Antoine/@48.8493156,2.38857,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8493156,
     "lng": 2.38857
   },
@@ -176,6 +195,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/Chez%20Giulia/@48.8507124,2.3916338,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8507124,
     "lng": 2.3916338
   },
@@ -185,6 +205,7 @@
     "cuisine": "coréen",
     "url": "https://www.google.com/maps/search/Chez%20Lee%20Korea/@48.8490359,2.3905556,19z",
     "menu": "",
+    "tel": "+33 1 53 27 01 63",
     "lat": 48.8490359,
     "lng": 2.3905556
   },
@@ -194,6 +215,7 @@
     "cuisine": "bistrot",
     "url": "https://www.google.com/maps/search/Chez%20Loulou%20et%20Juliette/@48.853173,2.3973889,19z",
     "menu": "https://wiicmenu-qrcode.com/app/offre.php?resto=1235",
+    "tel": "",
     "lat": 48.853173,
     "lng": 2.3973889
   },
@@ -203,6 +225,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Chez%20Prosper/@48.8485856,2.3983193,19z",
     "menu": "https://www.chezprospernation.com/",
+    "tel": "",
     "lat": 48.8485856,
     "lng": 2.3983193
   },
@@ -212,6 +235,7 @@
     "cuisine": "chinois",
     "url": "https://www.google.com/maps/search/Chez%20Ravioli%20Chen%20Chen/@48.8529706,2.3933325,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8529706,
     "lng": 2.3933325
   },
@@ -221,6 +245,7 @@
     "cuisine": "marocain",
     "url": "https://www.google.com/maps/search/Chez%20Younice/@48.8515774,2.3992874,19z",
     "menu": "http://www.chez-younice.fr",
+    "tel": "0613916588",
     "lat": 48.8515774,
     "lng": 2.3992874
   },
@@ -230,6 +255,7 @@
     "cuisine": "français",
     "url": "https://www.google.com/maps/search/Clutch/@48.8503911,2.3901426,19z",
     "menu": "http://restaurant-clutch.fr",
+    "tel": "+33744800404",
     "lat": 48.8503911,
     "lng": 2.3901426
   },
@@ -239,6 +265,7 @@
     "cuisine": "français, european, bistrot",
     "url": "https://www.google.com/maps/search/Dame%20Nation/@48.8508017,2.3924838,19z",
     "menu": "https://www.damenation-restaurant.fr/",
+    "tel": "+33143706324",
     "lat": 48.8508017,
     "lng": 2.3924838
   },
@@ -248,6 +275,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Dame%20Nation%20Le%20Bistro/@48.8503064,2.3921683,19z",
     "menu": "https://www.damenation-bistro.fr/",
+    "tel": "+33 9 83 30 53 29",
     "lat": 48.8503064,
     "lng": 2.3921683
   },
@@ -257,6 +285,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Domino's/@48.8527973,2.3934421,19z",
     "menu": "https://www.dominos.fr/magasin/paris-11-p.-auguste_75011",
+    "tel": "",
     "lat": 48.8527973,
     "lng": 2.3934421
   },
@@ -266,6 +295,7 @@
     "cuisine": "kebab",
     "url": "https://www.google.com/maps/search/Dorum%20Istanbul/@48.8496482,2.3948765,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8496482,
     "lng": 2.3948765
   },
@@ -275,6 +305,7 @@
     "cuisine": "kebab, pizza, turc",
     "url": "https://www.google.com/maps/search/Dosteli/@48.8529637,2.3975253,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8529637,
     "lng": 2.3975253
   },
@@ -284,6 +315,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Enjoy%20Tacos/@48.848118,2.4034496,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.848118,
     "lng": 2.4034496
   },
@@ -293,6 +325,7 @@
     "cuisine": "libanais",
     "url": "https://www.google.com/maps/search/Fakra/@48.8488824,2.3936519,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8488824,
     "lng": 2.3936519
   },
@@ -302,6 +335,7 @@
     "cuisine": "japonais",
     "url": "https://www.google.com/maps/search/Fleurs%20de%20Cerisier/@48.8488661,2.3937873,19z",
     "menu": "",
+    "tel": "+33 1 44 93 57 10",
     "lat": 48.8488661,
     "lng": 2.3937873
   },
@@ -311,6 +345,7 @@
     "cuisine": "chinois, asiatique, sichuan, nouilles",
     "url": "https://www.google.com/maps/search/Folie%20piment/@48.8505165,2.3890315,19z",
     "menu": "",
+    "tel": "+33983544183",
     "lat": 48.8505165,
     "lng": 2.3890315
   },
@@ -320,6 +355,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Hotbox%20Pizza/@48.8499956,2.394661,19z",
     "menu": "",
+    "tel": "+33 1 83 94 48 38",
     "lat": 48.8499956,
     "lng": 2.394661
   },
@@ -329,6 +365,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Ido%C3%AFa/@48.8517184,2.4000236,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8517184,
     "lng": 2.4000236
   },
@@ -338,6 +375,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/Impasto%20Nation/@48.8463179,2.3945895,19z",
     "menu": "https://impasto-paris.com/",
+    "tel": "+33 1 40 19 12 97",
     "lat": 48.8463179,
     "lng": 2.3945895
   },
@@ -347,6 +385,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/Impronta/@48.8495817,2.3887896,19z",
     "menu": "",
+    "tel": "+33 1 45 67 19 05",
     "lat": 48.8495817,
     "lng": 2.3887896
   },
@@ -356,6 +395,7 @@
     "cuisine": "indien",
     "url": "https://www.google.com/maps/search/Indian%20Road/@48.8532936,2.397275,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8532936,
     "lng": 2.397275
   },
@@ -365,6 +405,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Japan%20Eat/@48.8513831,2.3912599,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8513831,
     "lng": 2.3912599
   },
@@ -374,6 +415,7 @@
     "cuisine": "japonais",
     "url": "https://www.google.com/maps/search/Jinyao/@48.8511597,2.3969218,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8511597,
     "lng": 2.3969218
   },
@@ -383,6 +425,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/Joe%E2%80%99s%20Pasta/@48.846268,2.3957143,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.846268,
     "lng": 2.3957143
   },
@@ -392,6 +435,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Just%20Crousty/@48.8498626,2.3938772,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8498626,
     "lng": 2.3938772
   },
@@ -401,6 +445,7 @@
     "cuisine": "mediterranean",
     "url": "https://www.google.com/maps/search/Kalank/@48.851936,2.3983329,19z",
     "menu": "https://www.kalank-sud.fr/le-restaurant-kalank/",
+    "tel": "+33 1 43 73 60 96",
     "lat": 48.851936,
     "lng": 2.3983329
   },
@@ -410,6 +455,7 @@
     "cuisine": "thaï",
     "url": "https://www.google.com/maps/search/Khun%20Akorn/@48.8496002,2.3981379,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8496002,
     "lng": 2.3981379
   },
@@ -419,6 +465,7 @@
     "cuisine": "coréen",
     "url": "https://www.google.com/maps/search/Kim%20%26%20Kim/@48.8502387,2.391818,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8502387,
     "lng": 2.391818
   },
@@ -428,6 +475,7 @@
     "cuisine": "français",
     "url": "https://www.google.com/maps/search/L'%C3%89glantine/@48.8470872,2.3954755,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8470872,
     "lng": 2.3954755
   },
@@ -437,6 +485,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/L%E2%80%99Olivier/@48.8453877,2.4023681,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8453877,
     "lng": 2.4023681
   },
@@ -446,6 +495,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/L'olivier%20d'or/@48.8508715,2.3953734,19z",
     "menu": "",
+    "tel": "+33 1 43 73 61 04",
     "lat": 48.8508715,
     "lng": 2.3953734
   },
@@ -455,6 +505,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/La%20File%20de%20Th%C3%A9/@48.8503665,2.3912161,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8503665,
     "lng": 2.3912161
   },
@@ -464,6 +515,7 @@
     "cuisine": "français, régional",
     "url": "https://www.google.com/maps/search/La%20Fille%20%C3%A0%20Papa/@48.8455609,2.3932951,19z",
     "menu": "https://www.lafilleapapa-restaurant.fr/",
+    "tel": "+33143076244",
     "lat": 48.8455609,
     "lng": 2.3932951
   },
@@ -473,6 +525,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/La%20MiN/@48.8505164,2.388329,19z",
     "menu": "https://la-min-paris.eatbu.com",
+    "tel": "+33 1 73 71 47 15",
     "lat": 48.8505164,
     "lng": 2.388329
   },
@@ -482,6 +535,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/La%20P'tite%20Cuisine%20de%20Picpus/@48.8454278,2.3950581,19z",
     "menu": "",
+    "tel": "+33 1 43 47 44 87",
     "lat": 48.8454278,
     "lng": 2.3950581
   },
@@ -491,6 +545,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/La%20T%C3%AAte%20%C3%A0%20Toto/@48.8486293,2.3930499,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8486293,
     "lng": 2.3930499
   },
@@ -500,6 +555,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%2012%C3%A8me%20Cru/@48.8469594,2.3967545,19z",
     "menu": "https://le-12-eme-cru-restaurant-paris.eatbu.com",
+    "tel": "+33 1 43 14 02 32",
     "lat": 48.8469594,
     "lng": 2.3967545
   },
@@ -509,6 +565,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20bar%20%C3%A0%20Loot/@48.8526199,2.4004455,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8526199,
     "lng": 2.4004455
   },
@@ -518,6 +575,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Bistro%20d'Avron/@48.8516581,2.399611,19z",
     "menu": "",
+    "tel": "+33140098158",
     "lat": 48.8516581,
     "lng": 2.399611
   },
@@ -527,6 +585,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20bistrot%20de%20Charonne/@48.8519953,2.3982878,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8519953,
     "lng": 2.3982878
   },
@@ -536,6 +595,7 @@
     "cuisine": "asiatique",
     "url": "https://www.google.com/maps/search/Le%20bon%20chinois/@48.8492914,2.3994408,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8492914,
     "lng": 2.3994408
   },
@@ -545,6 +605,7 @@
     "cuisine": "kebab",
     "url": "https://www.google.com/maps/search/Le%20Bosphore/@48.8518812,2.4009838,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8518812,
     "lng": 2.4009838
   },
@@ -554,6 +615,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Box/@48.8487808,2.4010327,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8487808,
     "lng": 2.4010327
   },
@@ -563,6 +625,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Caf%C3%A9%20Du%20Tr%C3%B4ne/@48.8486104,2.3979238,19z",
     "menu": "",
+    "tel": "+33 1 43 48 53 66",
     "lat": 48.8486104,
     "lng": 2.3979238
   },
@@ -572,6 +635,7 @@
     "cuisine": "international",
     "url": "https://www.google.com/maps/search/Le%20Cap%20Bon/@48.8505335,2.3887324,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8505335,
     "lng": 2.3887324
   },
@@ -581,6 +645,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20carr%C3%A9%20Voltaire/@48.8496952,2.3941867,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8496952,
     "lng": 2.3941867
   },
@@ -590,6 +655,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20chalet%20d'Avron/@48.8510059,2.3972687,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8510059,
     "lng": 2.3972687
   },
@@ -599,6 +665,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Dalou/@48.8478383,2.3975522,19z",
     "menu": "",
+    "tel": "+33 1 43 43 41 38",
     "lat": 48.8478383,
     "lng": 2.3975522
   },
@@ -608,6 +675,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Depart/@48.8472982,2.4036281,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8472982,
     "lng": 2.4036281
   },
@@ -617,6 +685,7 @@
     "cuisine": "kebab, fruits de mer, turc",
     "url": "https://www.google.com/maps/search/Le%20Durumier/@48.8513963,2.3993213,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8513963,
     "lng": 2.3993213
   },
@@ -626,6 +695,7 @@
     "cuisine": "français",
     "url": "https://www.google.com/maps/search/Le%20Longchamp/@48.8444922,2.3906935,19z",
     "menu": "",
+    "tel": "+33143434939",
     "lat": 48.8444922,
     "lng": 2.3906935
   },
@@ -635,6 +705,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Marrakech/@48.8498275,2.3947618,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8498275,
     "lng": 2.3947618
   },
@@ -644,6 +715,7 @@
     "cuisine": "brasserie",
     "url": "https://www.google.com/maps/search/Le%20Muguet/@48.849711,2.3974374,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.849711,
     "lng": 2.3974374
   },
@@ -653,6 +725,7 @@
     "cuisine": "ethiopian",
     "url": "https://www.google.com/maps/search/Le%20Negus/@48.8505734,2.3892815,19z",
     "menu": "",
+    "tel": "+33744113019",
     "lat": 48.8505734,
     "lng": 2.3892815
   },
@@ -662,6 +735,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/Le%20Patio/@48.8480997,2.4039868,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8480997,
     "lng": 2.4039868
   },
@@ -671,6 +745,7 @@
     "cuisine": "crêpes",
     "url": "https://www.google.com/maps/search/Le%20Phenix/@48.8493312,2.3886988,19z",
     "menu": "",
+    "tel": "+33 1 43 70 83 22",
     "lat": 48.8493312,
     "lng": 2.3886988
   },
@@ -680,6 +755,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Philosophe/@48.8502098,2.3923579,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8502098,
     "lng": 2.3923579
   },
@@ -689,6 +765,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Terminus%20Nation/@48.848497,2.399551,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.848497,
     "lng": 2.399551
   },
@@ -698,6 +775,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Triomphe/@48.8474835,2.394769,19z",
     "menu": "https://www.restaurant-letriomphe.fr",
+    "tel": "+33 1 43 43 22 36",
     "lat": 48.8474835,
     "lng": 2.394769
   },
@@ -707,6 +785,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Le%20Vin%20du%20Moment/@48.8531151,2.3932522,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8531151,
     "lng": 2.3932522
   },
@@ -716,6 +795,7 @@
     "cuisine": "chinois",
     "url": "https://www.google.com/maps/search/Les%202%20Saveurs/@48.8455915,2.3933569,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8455915,
     "lng": 2.3933569
   },
@@ -725,6 +805,7 @@
     "cuisine": "brasserie",
     "url": "https://www.google.com/maps/search/Les%20Ogres/@48.850383,2.393033,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.850383,
     "lng": 2.393033
   },
@@ -734,6 +815,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Libre-service%20Nation/@48.8445862,2.3963184,19z",
     "menu": "https://www.crous-paris.fr/restaurant/cafeteria-nation-libre-service-2/",
+    "tel": "",
     "lat": 48.8445862,
     "lng": 2.3963184
   },
@@ -743,6 +825,7 @@
     "cuisine": "asiatique",
     "url": "https://www.google.com/maps/search/Lin%20D%C3%A9lices/@48.8505337,2.3926635,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8505337,
     "lng": 2.3926635
   },
@@ -752,6 +835,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Lut%C3%A8ce%20caf%C3%A9/@48.8518559,2.3984125,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8518559,
     "lng": 2.3984125
   },
@@ -761,6 +845,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Makoto/@48.8494363,2.3945868,19z",
     "menu": "",
+    "tel": "+33 1 44 64 75 87",
     "lat": 48.8494363,
     "lng": 2.3945868
   },
@@ -770,6 +855,7 @@
     "cuisine": "vietnamien",
     "url": "https://www.google.com/maps/search/M%C3%A2m%20vi%C3%AAt/@48.8506665,2.3938943,19z",
     "menu": "http://www.mamvietparis.fr",
+    "tel": "+33 1 43 73 53 05",
     "lat": 48.8506665,
     "lng": 2.3938943
   },
@@ -779,6 +865,7 @@
     "cuisine": "cajun",
     "url": "https://www.google.com/maps/search/Mama%20Jackson/@48.8479779,2.387927,19z",
     "menu": "https://www.facebook.com/mamajacksonsoulfood/",
+    "tel": "+33 6 16 72 78 64",
     "lat": 48.8479779,
     "lng": 2.387927
   },
@@ -788,6 +875,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Manhattan/@48.8513081,2.3913812,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8513081,
     "lng": 2.3913812
   },
@@ -797,6 +885,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Mat'izza/@48.8508726,2.3924806,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8508726,
     "lng": 2.3924806
   },
@@ -806,6 +895,7 @@
     "cuisine": "cambodian, asiatique",
     "url": "https://www.google.com/maps/search/Mom's/@48.8517362,2.3993171,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8517362,
     "lng": 2.3993171
   },
@@ -815,6 +905,7 @@
     "cuisine": "bagels",
     "url": "https://www.google.com/maps/search/Morry's%20Bagels/@48.8490663,2.3903374,19z",
     "menu": "https://morrysbagel.wixsite.com/website",
+    "tel": "",
     "lat": 48.8490663,
     "lng": 2.3903374
   },
@@ -824,6 +915,7 @@
     "cuisine": "ethiopian",
     "url": "https://www.google.com/maps/search/Mosseb/@48.8503857,2.3893403,19z",
     "menu": "",
+    "tel": "+33 143489152",
     "lat": 48.8503857,
     "lng": 2.3893403
   },
@@ -833,6 +925,7 @@
     "cuisine": "kebab",
     "url": "https://www.google.com/maps/search/Naan%20Nation/@48.8496217,2.3942865,19z",
     "menu": "",
+    "tel": "+33 9 81 86 89 42",
     "lat": 48.8496217,
     "lng": 2.3942865
   },
@@ -842,6 +935,7 @@
     "cuisine": "japonais",
     "url": "https://www.google.com/maps/search/Nagoya%20Sushi/@48.8473197,2.4034987,19z",
     "menu": "http://sushi-nagoya.fr/",
+    "tel": "",
     "lat": 48.8473197,
     "lng": 2.4034987
   },
@@ -851,6 +945,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Nation%20Food/@48.8487739,2.3976045,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8487739,
     "lng": 2.3976045
   },
@@ -860,6 +955,7 @@
     "cuisine": "vietnamien",
     "url": "https://www.google.com/maps/search/No%C3%AF/@48.8458558,2.3949948,19z",
     "menu": "",
+    "tel": "+33 9 80 85 49 43",
     "lat": 48.8458558,
     "lng": 2.3949948
   },
@@ -869,6 +965,7 @@
     "cuisine": "vietnamien",
     "url": "https://www.google.com/maps/search/NO%C3%AF/@48.8458326,2.3949619,19z",
     "menu": "http://wiicmenu-qrcode.com",
+    "tel": "+33 9 80 85 49 43",
     "lat": 48.8458326,
     "lng": 2.3949619
   },
@@ -878,6 +975,7 @@
     "cuisine": "thaï",
     "url": "https://www.google.com/maps/search/Noo%20Wok/@48.8505231,2.3940115,19z",
     "menu": "https://noowok.fr",
+    "tel": "+33 1 88 61 13 45",
     "lat": 48.8505231,
     "lng": 2.3940115
   },
@@ -887,6 +985,7 @@
     "cuisine": "nouilles",
     "url": "https://www.google.com/maps/search/Noodles%20Nation/@48.8498579,2.3947432,19z",
     "menu": "",
+    "tel": "+33 1 43 71 17 03",
     "lat": 48.8498579,
     "lng": 2.3947432
   },
@@ -896,6 +995,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/O'Square/@48.8488105,2.4029062,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8488105,
     "lng": 2.4029062
   },
@@ -905,6 +1005,7 @@
     "cuisine": "thaï",
     "url": "https://www.google.com/maps/search/Orchid%20Tha%C3%AF/@48.8476118,2.4000362,19z",
     "menu": "https://orchid-thai.fr/",
+    "tel": "",
     "lat": 48.8476118,
     "lng": 2.4000362
   },
@@ -914,6 +1015,7 @@
     "cuisine": "japonais",
     "url": "https://www.google.com/maps/search/Otaku/@48.8462937,2.4001454,19z",
     "menu": "https://www.otakuparis12.fr/menu/",
+    "tel": "+33 1 43 40 41 89",
     "lat": 48.8462937,
     "lng": 2.4001454
   },
@@ -923,6 +1025,7 @@
     "cuisine": "asiatique",
     "url": "https://www.google.com/maps/search/Pho%2011/@48.8515583,2.399208,19z",
     "menu": "",
+    "tel": "+33 1 43 73 15 08",
     "lat": 48.8515583,
     "lng": 2.399208
   },
@@ -932,6 +1035,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Pinocchio/@48.8493175,2.3906598,19z",
     "menu": "https://pinocchiopizzeria.fr/",
+    "tel": "",
     "lat": 48.8493175,
     "lng": 2.3906598
   },
@@ -941,6 +1045,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Pizza%20de%20Venise/@48.8503985,2.3898214,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8503985,
     "lng": 2.3898214
   },
@@ -950,6 +1055,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Pizza%20di%20Faousto/@48.8461658,2.4018639,19z",
     "menu": "",
+    "tel": "+33 1 46 28 01 01",
     "lat": 48.8461658,
     "lng": 2.4018639
   },
@@ -959,6 +1065,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Pizza%20Five/@48.8477398,2.3888781,19z",
     "menu": "https://shams-food.fr/",
+    "tel": "+33 1 70 23 39 70",
     "lat": 48.8477398,
     "lng": 2.3888781
   },
@@ -968,6 +1075,7 @@
     "cuisine": "sandwich, burger",
     "url": "https://www.google.com/maps/search/Poivron%20Rouge/@48.8532278,2.3973316,19z",
     "menu": "http://www.poivronrouge.fr",
+    "tel": "+33143721716",
     "lat": 48.8532278,
     "lng": 2.3973316
   },
@@ -977,6 +1085,7 @@
     "cuisine": "bagels",
     "url": "https://www.google.com/maps/search/Popyz/@48.8503036,2.3949659,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8503036,
     "lng": 2.3949659
   },
@@ -986,6 +1095,7 @@
     "cuisine": "poulet",
     "url": "https://www.google.com/maps/search/Poulet%20brais%C3%A9/@48.8472878,2.3995494,19z",
     "menu": "https://restaurants.pbpouletbraise.fr/nation/",
+    "tel": "",
     "lat": 48.8472878,
     "lng": 2.3995494
   },
@@ -995,6 +1105,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Restaurant%20universitaire%20Nation/@48.8446128,2.3969043,19z",
     "menu": "https://www.crous-paris.fr/restaurant/ru-nation/",
+    "tel": "",
     "lat": 48.8446128,
     "lng": 2.3969043
   },
@@ -1004,6 +1115,7 @@
     "cuisine": "sushi",
     "url": "https://www.google.com/maps/search/R%C3%AAver%20Sushi/@48.8507559,2.3915724,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8507559,
     "lng": 2.3915724
   },
@@ -1013,6 +1125,7 @@
     "cuisine": "chinois",
     "url": "https://www.google.com/maps/search/Royal%20Tching%20Tao/@48.8459189,2.3981862,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8459189,
     "lng": 2.3981862
   },
@@ -1022,6 +1135,7 @@
     "cuisine": "libanais",
     "url": "https://www.google.com/maps/search/Sanioura/@48.8507252,2.398305,19z",
     "menu": "",
+    "tel": "+33 1 43 73 88 44",
     "lat": 48.8507252,
     "lng": 2.398305
   },
@@ -1031,6 +1145,7 @@
     "cuisine": "japonais, sushi",
     "url": "https://www.google.com/maps/search/Sanyo%20Sushi/@48.8486544,2.392891,19z",
     "menu": "",
+    "tel": "+33 1 53 33 03 76",
     "lat": 48.8486544,
     "lng": 2.392891
   },
@@ -1040,6 +1155,7 @@
     "cuisine": "pizza",
     "url": "https://www.google.com/maps/search/Semola%20Pizzeria/@48.8488908,2.4003639,19z",
     "menu": "https://semola.fr/",
+    "tel": "+33140091780",
     "lat": 48.8488908,
     "lng": 2.4003639
   },
@@ -1049,6 +1165,7 @@
     "cuisine": "libanais, shawarma",
     "url": "https://www.google.com/maps/search/Shawar'mama/@48.8505236,2.3885989,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8505236,
     "lng": 2.3885989
   },
@@ -1058,6 +1175,7 @@
     "cuisine": "chinois, japonais",
     "url": "https://www.google.com/maps/search/Shinzzo/@48.8515264,2.3909744,19z",
     "menu": "",
+    "tel": "+33 1 43 70 66 66",
     "lat": 48.8515264,
     "lng": 2.3909744
   },
@@ -1067,6 +1185,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Sh%C3%B4%20Kut/@48.8487839,2.4008653,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8487839,
     "lng": 2.4008653
   },
@@ -1076,6 +1195,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/So%20Italia/@48.8522155,2.3932506,19z",
     "menu": "https://soitalia.fr",
+    "tel": "+33 1 43 71 29 34",
     "lat": 48.8522155,
     "lng": 2.3932506
   },
@@ -1085,6 +1205,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Sofiane/@48.8526386,2.3977736,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8526386,
     "lng": 2.3977736
   },
@@ -1094,6 +1215,7 @@
     "cuisine": "thaï, indien",
     "url": "https://www.google.com/maps/search/Street%20Wok/@48.8505241,2.3943345,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8505241,
     "lng": 2.3943345
   },
@@ -1103,6 +1225,7 @@
     "cuisine": "sandwich",
     "url": "https://www.google.com/maps/search/Subway/@48.8447044,2.3898804,19z",
     "menu": "https://restaurants.subwayfrance.fr/fr/ile-de-france/paris/paris/subway-paris-montgallet-66",
+    "tel": "+33 1 44 75 51 86",
     "lat": 48.8447044,
     "lng": 2.3898804
   },
@@ -1112,6 +1235,7 @@
     "cuisine": "japonais",
     "url": "https://www.google.com/maps/search/Sugo%C3%AF%20Ramen/@48.8510243,2.3899057,19z",
     "menu": "https://sugoiramen.fr",
+    "tel": "+33 9 73 89 25 63",
     "lat": 48.8510243,
     "lng": 2.3899057
   },
@@ -1121,6 +1245,7 @@
     "cuisine": "sushi",
     "url": "https://www.google.com/maps/search/Sushi%20Avenue/@48.8532141,2.3931848,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8532141,
     "lng": 2.3931848
   },
@@ -1130,6 +1255,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Sushi%20Home/@48.8487755,2.3997801,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8487755,
     "lng": 2.3997801
   },
@@ -1139,6 +1265,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Taster/@48.8519316,2.3992231,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8519316,
     "lng": 2.3992231
   },
@@ -1148,6 +1275,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Tea%20M%C3%A9lodie/@48.84552,2.4021818,19z",
     "menu": "https://www.teamelodie.com/",
+    "tel": "+33 1 46 28 32 55",
     "lat": 48.84552,
     "lng": 2.4021818
   },
@@ -1157,6 +1285,7 @@
     "cuisine": "libanais",
     "url": "https://www.google.com/maps/search/Terrasse%20Beirut/@48.8471374,2.3947373,19z",
     "menu": "https://www.canva.com/design/DAGIOqNTfXE/l3DL3f7GqXGojE63VZZmCw/view?utm_content=DAGIOqNTfXE",
+    "tel": "+33 7 64 55 75 91",
     "lat": 48.8471374,
     "lng": 2.3947373
   },
@@ -1166,6 +1295,7 @@
     "cuisine": "thaï",
     "url": "https://www.google.com/maps/search/Tha%C3%AF%20Kanda/@48.8476122,2.393034,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8476122,
     "lng": 2.393034
   },
@@ -1175,6 +1305,7 @@
     "cuisine": "italien",
     "url": "https://www.google.com/maps/search/The%20People%20-%20Paris%20Nation/@48.8476885,2.3973148,19z",
     "menu": "https://www.thepeoplehostel.com/fr/bar-restaurant/rooftop-paris-nation/",
+    "tel": "+33 9 78 36 20 28",
     "lat": 48.8476885,
     "lng": 2.3973148
   },
@@ -1184,6 +1315,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Tout%20day/@48.8521488,2.3899883,19z",
     "menu": "",
+    "tel": "+33173758490",
     "lat": 48.8521488,
     "lng": 2.3899883
   },
@@ -1193,6 +1325,7 @@
     "cuisine": "chinois",
     "url": "https://www.google.com/maps/search/Traiteur%20Bonheur/@48.8509985,2.3982054,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8509985,
     "lng": 2.3982054
   },
@@ -1202,6 +1335,7 @@
     "cuisine": "vietnamien",
     "url": "https://www.google.com/maps/search/Trois%20Crabes/@48.8482371,2.3880034,19z",
     "menu": "https://troiscrabes.fr/",
+    "tel": "+33 6 95 44 15 85",
     "lat": 48.8482371,
     "lng": 2.3880034
   },
@@ -1211,6 +1345,7 @@
     "cuisine": "régional",
     "url": "https://www.google.com/maps/search/Ty%20Louis/@48.8492044,2.389514,19z",
     "menu": "https://www.restaurant-letylouis.fr/",
+    "tel": "+33 1 49 96 60 10",
     "lat": 48.8492044,
     "lng": 2.389514
   },
@@ -1220,6 +1355,7 @@
     "cuisine": "fish",
     "url": "https://www.google.com/maps/search/Vin%20%26%20Mar%C3%A9e/@48.8497025,2.3932209,19z",
     "menu": "",
+    "tel": "+33 1 43 72 31 23",
     "lat": 48.8497025,
     "lng": 2.3932209
   },
@@ -1229,6 +1365,7 @@
     "cuisine": "",
     "url": "https://www.google.com/maps/search/Wakanda%20Factory/@48.8484062,2.3882268,19z",
     "menu": "https://wakandafood.fr",
+    "tel": "",
     "lat": 48.8484062,
     "lng": 2.3882268
   },
@@ -1238,6 +1375,7 @@
     "cuisine": "rapide",
     "url": "https://www.google.com/maps/search/Wolf/@48.844669,2.3899232,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.844669,
     "lng": 2.3899232
   },
@@ -1247,6 +1385,7 @@
     "cuisine": "poulet",
     "url": "https://www.google.com/maps/search/Ze%20Poulet%20grill%C3%A9/@48.8457126,2.3932085,19z",
     "menu": "",
+    "tel": "+33 143420024",
     "lat": 48.8457126,
     "lng": 2.3932085
   },
@@ -1256,6 +1395,7 @@
     "cuisine": "coréen",
     "url": "https://www.google.com/maps/search/Zo%20Eun%20Sig%20Tag/@48.8475518,2.4008621,19z",
     "menu": "",
+    "tel": "",
     "lat": 48.8475518,
     "lng": 2.4008621
   }
