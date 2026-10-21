@@ -1,0 +1,13 @@
+# Développement local : sert le site et stocke les données dans ./local-db.json.
+#   docker compose up                          → http://localhost:3000
+#   docker compose run --rm app npm run init-restos   → regénère la liste des restos
+services:
+  app:
+    image: node:26-trixie-slim
+    working_dir: /app
+    command: node dev-server.js
+    volumes:
+      - .:/app
+    ports:
+      - "${PORT:-3000}:3000"
+    init: true

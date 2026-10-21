@@ -1,0 +1,9 @@
+{
+  "name": "pause-dej",
+  "private": true,
+  "scripts": {
+    "start": "node dev-server.js",
+    "test": "node --test",
+    "init-restos": "node scripts/init-restos.js"
+  }
+}
