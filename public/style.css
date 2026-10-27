@@ -121,3 +121,5 @@ select {
   margin-top: 1rem;
 }
 .headcount .count { font-size: 2.6rem; font-weight: 800; line-height: 1; color: var(--accent); min-width: 2ch; text-align: center; }
+.headcount .row { margin: .4rem 0 0; }
+.headcount input.narrow { flex: 0 0 6rem; }

@@ -78,6 +78,7 @@
   function buildState(comments) {
     const restos = [];
     const gens = new Map();
+    const invites = new Map(); // équipe (en minuscules) → { equipe, nombre, by }
 
     for (const c of comments) {
       const e = decodeEvent(c.body);
@@ -115,12 +116,21 @@
         case 'vote':
           if (p.statut === 'viens' && restos.some((r) => r.id === e.resto)) p.vote = e.resto;
           break;
+        case 'invites': {
+          // N'importe qui peut déclarer des invités externes. Le dernier nombre saisi pour une équipe remplace le précédent, et 0 la retire.
+          const equipe = String(e.equipe ?? '').trim();
+          const nombre = Math.floor(Number(e.nombre));
+          if (!equipe || !(nombre >= 0)) break;
+          if (nombre === 0) invites.delete(equipe.toLowerCase());
+          else invites.set(equipe.toLowerCase(), { equipe, nombre, by: c.user });
+          break;
+        }
       }
     }
 
     const people = [...gens.values()];
     for (const r of restos) r.votants = people.filter((p) => p.statut === 'viens' && p.vote === r.id);
-    return { restos, gens: people };
+    return { restos, gens: people, invites: [...invites.values()] };
   }
 
   const Dej = { sessionDate, issueTitle, formatDate, parseMapsUrl, embedUrl, encodeEvent, decodeEvent, buildState };

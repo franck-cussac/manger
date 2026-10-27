@@ -11,6 +11,7 @@ let session = null; // date AAAA-MM-JJ
 let issueNumber = null;
 let state = null;
 let showForm = false;
+let showInvites = false;
 let busy = false;
 let error = '';
 let catalogue = []; // restos du quartier, générés par scripts/init-restos.js
@@ -114,6 +115,7 @@ async function refresh() {
       issueNumber = null;
       state = null;
       showForm = false;
+      showInvites = false;
     }
     if (!issueNumber) issueNumber = (await findIssue(Dej.issueTitle(session)))[0] ?? null;
     state = Dej.buildState(issueNumber ? await loadComments(issueNumber) : []);
@@ -260,11 +262,25 @@ function viewEmpty() {
 
 function headcount() {
   const coming = state.gens.filter((p) => p.statut === 'viens');
-  const n = coming.length;
+  const guests = state.invites.map((i) => `<span class="person">👥 ${i.nombre} ${esc(i.equipe)}</span>`).join('');
+  const n = coming.length + state.invites.reduce((sum, i) => sum + i.nombre, 0);
+  const invitesForm = showInvites
+    ? `<form data-form="invites" class="row">
+        <input name="nombre" type="number" min="0" max="99" required placeholder="Nombre" class="narrow">
+        <input name="equipe" required placeholder="Nom de l'équipe" autocomplete="off">
+        <button class="primary" ${busy ? 'disabled' : ''}>Ajouter</button>
+        <button type="button" data-action="cancel_invites">Annuler</button>
+        <span class="muted small">Même nom d'équipe : le nombre est remplacé (0 pour retirer).</span>
+      </form>`
+    : `<button class="link" data-action="invites" ${busy ? 'disabled' : ''}>➕ Ajouter des invités externes</button>`;
   return `
     <section class="headcount">
       <span class="count">${n}</span>
-      <span><b>${n > 1 ? 'personnes viennent' : 'personne vient'} déjeuner</b><br>${people(coming, 'Sois le premier !')}</span>
+      <span><b>${n > 1 ? 'personnes viennent' : 'personne vient'} déjeuner</b><br>
+        ${coming.length || !guests ? people(coming, 'Sois le premier !') : ''}
+        ${guests ? `<span class="people">${guests}</span>` : ''}
+        <br>${invitesForm}
+      </span>
     </section>`;
 }
 
@@ -338,7 +354,7 @@ function render() {
 
   // Ne pas écraser le formulaire pendant la saisie lors du rafraîchissement automatique.
   const editing = document.activeElement?.closest?.('form');
-  if (editing && editing.dataset.form === 'propose' && showForm && !busy && !error) return;
+  if (editing && ((editing.dataset.form === 'propose' && showForm) || (editing.dataset.form === 'invites' && showInvites)) && !busy && !error) return;
 
   const html = `
     <header>
@@ -404,6 +420,15 @@ $app.addEventListener('click', (e) => {
       break;
     case 'cancel':
       showForm = false;
+      render();
+      break;
+    case 'invites':
+      showInvites = true;
+      render();
+      $app.querySelector('input[name=nombre]')?.focus();
+      break;
+    case 'cancel_invites':
+      showInvites = false;
       render();
       break;
     case 'viens':
@@ -474,6 +499,12 @@ $app.addEventListener('submit', async (e) => {
     document.activeElement.blur();
     const evt = { type: 'propose', nom, url, menu: f.menu.value.trim(), tel: f.tel.value.trim(), adresse: f.adresse.value, cuisine: f.cuisine.value, lat, lng };
     post(evt, `${verb} : **${md(nom)}**\n${url}`);
+  } else if (e.target.dataset.form === 'invites') {
+    const nombre = Number(f.nombre.value);
+    const equipe = f.equipe.value.trim();
+    document.activeElement.blur();
+    showInvites = false;
+    post({ type: 'invites', equipe, nombre }, nombre ? `👥 ${nombre} invité${nombre > 1 ? 's' : ''} externe${nombre > 1 ? 's' : ''} : **${md(equipe)}**` : `👥 Plus d'invités pour **${md(equipe)}**`);
   }
 });
 

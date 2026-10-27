@@ -51,3 +51,15 @@ test("seul l'auteur peut retirer sa proposition, et les votes sont annulés", ()
   const bob = state.gens.find((p) => p.login === 'bob');
   assert.deepStrictEqual([bob.statut, bob.vote], ['viens', null]);
 });
+
+test("les invités externes : le dernier nombre par équipe l'emporte, 0 retire l'équipe", () => {
+  const c = (id, user, evt) => ({ id, user, avatar: '', body: Dej.encodeEvent(evt, '') });
+  const state = Dej.buildState([
+    c(1, 'alice', { type: 'invites', equipe: 'Marketing', nombre: 3 }),
+    c(2, 'bob', { type: 'invites', equipe: 'Compta', nombre: 2 }),
+    c(3, 'carol', { type: 'invites', equipe: ' marketing ', nombre: 5 }), // même équipe, corrigée par quelqu'un d'autre
+    c(4, 'bob', { type: 'invites', equipe: 'Compta', nombre: 0 }),
+    c(5, 'dave', { type: 'invites', equipe: '', nombre: 4 }), // ignoré : pas de nom d'équipe
+  ]);
+  assert.deepStrictEqual(state.invites, [{ equipe: 'marketing', nombre: 5, by: 'carol' }]);
+});

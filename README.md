@@ -9,6 +9,7 @@ Mini site statique pour organiser le déjeuner de l'équipe. Il n'y a pas de ser
 - Avec 1 resto proposé, on a trois choix : **Je viens**, **Je viens pas** ou **Contre-proposition**.
 - Dès qu'il y a 2 restos ou plus, on passe en mode vote. Seuls ceux qui ont dit « je viens » peuvent voter.
 - Celui qui propose un resto est compté comme venant, et il vote pour sa proposition.
+- N'importe qui peut ajouter des **invités externes** en donnant un nombre et un nom d'équipe. Ils sont ajoutés au nombre de personnes qui viennent, mais ne votent pas. Si on ressaisit la même équipe, le nombre est remplacé, et 0 la retire.
 - **À 14h (heure de Paris)**, le site passe sur l'issue du lendemain. On repart donc de zéro, et les anciennes issues servent d'historique.
 - Le site n'utilise pas d'API Google : il intègre une carte Google Maps et met un lien vers la fiche. Le menu n'est pas disponible via Google, mais on peut donner un lien vers le menu en proposant le resto.
 
